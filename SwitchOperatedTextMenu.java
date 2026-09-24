@@ -5,7 +5,7 @@ public class SwitchOperatedTextMenu(){
                 Scanner in = new Scanner(System.in);
 		for (int i = 1; i<=2; i++){
 			System.out.println(i + ". Menu item #" + i);
-		System.out.println("0. Quit");
+		System.out.println("you chose option 0. Quit");
 		boolean quit = false;
 		int menuItem;
 		do {
